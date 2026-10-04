@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ec">
+  <meta name="description" content="Vídeos de catequese, homilias e formação católica da Casa da Palavra.">
+  <title>Vídeos — Casa da Palavra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="../catalogo.js" defer></script>
+  <script src="../app.js" defer></script>
+  <script src="videos.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Casa da Palavra, início"><span class="brand-mark" aria-hidden="true">&#10013;</span><span>casa<span class="brand-light">da</span>palavra</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+      <a href="../index.html">Início</a><a href="../videos/" aria-current="page">Vídeos</a><a href="../artigos/">Artigos</a><a class="nav-cta" href="../livros/">Livros para estudo <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="conteudo" class="content-section page-content video-page">
+    <div class="section-heading">
+      <div><p class="eyebrow"><span class="eyebrow-line"></span> Para ouvir e assistir</p><h1>Vídeos para <em>aprofundar</em></h1></div>
+      <p class="section-intro">Catequeses, homilias e reflexões para acompanhar a caminhada de fé.</p>
+    </div>
+    <nav class="video-themes" id="video-themes" aria-label="Navegar por temas de vídeo"></nav>
+    <div class="video-topic-expansion" id="video-topic-expansion" hidden aria-live="polite"></div>
+    <div class="video-grid" id="video-list" aria-live="polite"></div>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="../index.html"><span class="brand-mark" aria-hidden="true">&#10013;</span><span>casa<span class="brand-light">da</span>palavra</span></a><span>Palavra para estudar, anunciar e viver.</span><a href="#conteudo">Voltar ao início ↑</a></footer>
+</body>
+</html>

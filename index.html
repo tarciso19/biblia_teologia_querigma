@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ec">
+  <meta name="description" content="Formação católica, vídeos, artigos e livros para aprofundar a Palavra de Deus.">
+  <title>Casa da Palavra — formação para a fé</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body class="home-page">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Casa da Palavra, início">
+      <span class="brand-mark" aria-hidden="true">&#10013;</span>
+      <span>casa<span class="brand-light">da</span>palavra</span>
+    </a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">
+      <span></span><span></span>
+    </button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+      <a href="index.html" aria-current="page">Início</a>
+      <a href="videos/index.html">Vídeos</a>
+      <a href="artigos/index.html">Artigos</a>
+      <a class="nav-cta" href="livros/index.html">Livros para estudo <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="conteudo" class="home-main">
+    <section class="home-intro" aria-labelledby="home-title">
+      <p class="eyebrow"><span class="eyebrow-line"></span> Palavra · tradição · vida</p>
+      <h1 id="home-title">A fé se aprofunda<br>quando a Palavra <em>nos encontra.</em></h1>
+      <p>Estudo e formação católica para quem anuncia, aprende e vive o Evangelho.</p>
+    </section>
+
+    <section class="home-carousel" aria-label="Explore a Casa da Palavra">
+      <div class="carousel-toolbar">
+        <p><span class="eyebrow-line"></span> Explore a Casa da Palavra</p>
+        <div class="carousel-controls">
+          <button class="carousel-arrow" type="button" data-carousel-previous aria-label="Seção anterior">←</button>
+          <span class="carousel-count" aria-live="polite"><span data-carousel-current>01</span> / 03</span>
+          <button class="carousel-arrow" type="button" data-carousel-next aria-label="Próxima seção">→</button>
+        </div>
+      </div>
+      <div class="carousel-viewport" id="home-menu" aria-roledescription="carrossel">
+        <div class="carousel-track" data-carousel-track>
+          <article class="carousel-slide" style="--slide-image: url('https://images.unsplash.com/photo-1504052434569-70ad5836ab65?auto=format&fit=crop&w=1800&q=85')" aria-roledescription="slide" aria-label="1 de 3">
+            <div class="carousel-slide-copy">
+              <span class="carousel-kicker">01 / PARA OUVIR E ASSISTIR</span>
+              <h2>Vídeos para <em>aprofundar</em></h2>
+              <p>Catequeses, homilias e reflexões para acompanhar a caminhada de fé.</p>
+              <a class="button button-light" href="videos/index.html">Explorar vídeos <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="carousel-mark" aria-hidden="true">&#10013;</span>
+          </article>
+          <article class="carousel-slide" style="--slide-image: url('https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=1800&q=85')" aria-roledescription="slide" aria-label="2 de 3" aria-hidden="true" inert>
+            <div class="carousel-slide-copy">
+              <span class="carousel-kicker">02 / ESTUDO DA PALAVRA</span>
+              <h2>Artigos para <em>formar e anunciar</em></h2>
+              <p>Leituras bíblico-teológicas para o estudo e a preparação de pregadores.</p>
+              <a class="button button-light" href="artigos/index.html">Ler artigos <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="carousel-mark" aria-hidden="true">&#10013;</span>
+          </article>
+          <article class="carousel-slide" style="--slide-image: url('https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1800&q=85')" aria-roledescription="slide" aria-label="3 de 3" aria-hidden="true" inert>
+            <div class="carousel-slide-copy">
+              <span class="carousel-kicker">03 / BIBLIOTECA DE ESTUDO</span>
+              <h2>Livros para <em>seguir mais fundo</em></h2>
+              <p>Sugestões de leitura conectadas à missão de formação da Casa da Palavra.</p>
+              <a class="button button-light" href="livros/index.html">Ver sugestões <span aria-hidden="true">↗</span></a>
+            </div>
+            <span class="carousel-mark" aria-hidden="true">&#10013;</span>
+          </article>
+        </div>
+      </div>
+      <div class="carousel-pagination" role="group" aria-label="Escolher seção">
+        <button type="button" data-carousel-to="0" aria-label="Ir para Vídeos" aria-pressed="true"></button>
+        <button type="button" data-carousel-to="1" aria-label="Ir para Artigos" aria-pressed="false"></button>
+        <button type="button" data-carousel-to="2" aria-label="Ir para Livros para estudo" aria-pressed="false"></button>
+      </div>
+    </section>
+    <p class="home-footnote">Casa da Palavra <span>·</span> Formação católica para a vida de fé</p>
+  </main>
+
+  <footer class="site-footer"><a class="brand footer-brand" href="index.html"><span class="brand-mark" aria-hidden="true">&#10013;</span><span>casa<span class="brand-light">da</span>palavra</span></a><span>Palavra para estudar, anunciar e viver.</span><a href="#conteudo">Voltar ao início ↑</a></footer>
+</body>
+</html>

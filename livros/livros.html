@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ec">
+  <meta name="description" content="Sugestões de livros para estudos bíblicos e formação católica, com links para a Amazon.">
+  <title>Livros para estudo — Casa da Palavra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="../catalogo.js" defer></script>
+  <script src="../app.js" defer></script>
+  <script src="livros.js" defer></script>
+</head>
+<body class="books-page">
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Casa da Palavra, início"><span class="brand-mark" aria-hidden="true">&#10013;</span><span>casa<span class="brand-light">da</span>palavra</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+      <a href="../index.html">Início</a><a href="../videos/">Vídeos</a><a href="../artigos/">Artigos</a><a class="nav-cta" href="../livros/" aria-current="page">Livros para estudo <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="conteudo" class="content-section page-content books-content">
+    <div class="section-heading">
+      <div><p class="eyebrow"><span class="eyebrow-line"></span> Biblioteca de estudo</p><h1>Livros para <em>seguir mais fundo</em></h1></div>
+      <p class="section-intro">Leituras selecionadas para acompanhar o estudo da Escritura e da tradição da Igreja.</p>
+    </div>
+    <nav class="video-themes book-categories" id="book-categories" aria-label="Filtrar livros por categoria"></nav>
+    <div class="book-grid books-list" id="book-list" aria-live="polite"></div>
+    <p class="amazon-disclosure">Os links de compra levam à Amazon. A disponibilidade e as condições são definidas pela loja.</p>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="../index.html"><span class="brand-mark" aria-hidden="true">&#10013;</span><span>casa<span class="brand-light">da</span>palavra</span></a><span>Palavra para estudar, anunciar e viver.</span><a href="#conteudo">Voltar ao início ↑</a></footer>
+</body>
+</html>

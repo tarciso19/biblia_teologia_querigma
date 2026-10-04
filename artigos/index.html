@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f4ec">
+  <meta name="description" content="Artigos bíblicos e materiais de estudo para a formação de pregadores católicos.">
+  <title>Artigos — Casa da Palavra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+  <script src="../catalogo.js" defer></script>
+  <script src="../app.js" defer></script>
+  <script src="artigos.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+  <header class="site-header">
+    <a class="brand" href="../index.html" aria-label="Casa da Palavra, início"><span class="brand-mark" aria-hidden="true">&#10013;</span><span>casa<span class="brand-light">da</span>palavra</span></a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu"><span></span><span></span></button>
+    <nav class="site-nav" id="site-nav" aria-label="Navegação principal">
+      <a href="../index.html">Início</a><a href="../videos/index.html">Vídeos</a><a href="../artigos/index.html" aria-current="page">Artigos</a><a class="nav-cta" href="../livros/index.html">Livros para estudo <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+  <main id="conteudo" class="content-section page-content article-page">
+    <div class="section-heading">
+      <div><p class="eyebrow"><span class="eyebrow-line"></span> Estudo da Palavra</p><h1>Artigos para <em>formar e anunciar</em></h1></div>
+      <p class="section-intro">Exposições bíblico-teológicas e materiais para o estudo e a preparação de pregadores.</p>
+    </div>
+    <section class="article-library" aria-labelledby="articles-heading">
+      <div class="subsection-heading"><div><span class="eyebrow-line"></span><h2 id="articles-heading">Categorias</h2></div><span class="library-count"><span class="count-number" id="article-count">0</span> <span id="article-count-label">categorias</span></span></div>
+      <nav class="article-breadcrumbs" id="article-breadcrumbs" aria-label="Navegação dos artigos" hidden></nav>
+      <button class="history-flow-trigger" id="history-flow-open" type="button" hidden>Explore a história de Israel <span aria-hidden="true">↗</span></button>
+      <label class="article-search" id="article-search-control" hidden><span class="sr-only">Buscar artigos</span><span aria-hidden="true">⌕</span><input id="article-search" type="search" placeholder="Buscar por tema, título ou autor..."></label>
+      <div class="article-grid" id="article-list" aria-live="polite"></div>
+    </section>
+    <dialog class="history-flow-dialog" id="history-flow-dialog" aria-labelledby="history-flow-title" aria-describedby="history-flow-description">
+      <div class="history-flow-shell">
+        <header class="history-flow-header">
+          <div><p class="history-flow-kicker">Linha do tempo interativa</p><h2 id="history-flow-title">A história de Israel</h2></div>
+          <button class="history-flow-close" id="history-flow-close" type="button" aria-label="Fechar linha do tempo">×</button>
+        </header>
+        <p class="history-flow-description" id="history-flow-description">Selecione uma etapa para explorar os períodos e abrir o artigo correspondente.</p>
+        <div class="history-flow-steps" id="history-flow-steps" aria-label="Etapas da história de Israel"></div>
+        <section class="history-flow-detail" aria-live="polite" aria-atomic="true">
+          <p class="history-flow-position" id="history-flow-position"></p>
+          <h3 id="history-flow-step-title"></h3>
+          <p id="history-flow-step-description"></p>
+          <a class="article-read history-flow-read" id="history-flow-read" href="#">Ler artigo desta etapa ↗</a>
+        </section>
+        <footer class="history-flow-footer">
+          <button class="history-flow-pager" id="history-flow-previous" type="button">← Etapa anterior</button>
+          <button class="history-flow-pager" id="history-flow-next" type="button">Próxima etapa →</button>
+        </footer>
+      </div>
+    </dialog>
+    <section class="article-pdfs" aria-labelledby="pdfs-heading">
+      <div class="subsection-heading"><div><span class="eyebrow-line"></span><h2 id="pdfs-heading">Materiais em PDF</h2></div><span class="library-count"><span class="count-number" id="pdf-count">0</span> publicações</span></div>
+      <div class="pdf-toolbar">
+        <label class="category-control"><span class="sr-only">Filtrar PDFs por categoria</span><select class="category-filter" id="pdf-category-filter"><option value="">Todas as categorias</option></select></label>
+        <label class="article-search"><span class="sr-only">Buscar PDFs</span><span aria-hidden="true">⌕</span><input id="pdf-search" type="search" placeholder="Buscar por título ou autor..."></label>
+      </div>
+      <div class="material-grid" id="pdf-list" aria-live="polite"></div>
+      <p class="library-note">Consulte as condições de uso de cada publicação antes de redistribuir os arquivos.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="../index.html"><span class="brand-mark" aria-hidden="true">&#10013;</span><span>casa<span class="brand-light">da</span>palavra</span></a><span>Palavra para estudar, anunciar e viver.</span><a href="#conteudo">Voltar ao início ↑</a></footer>
+</body>
+</html>
