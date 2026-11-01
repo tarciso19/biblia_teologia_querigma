@@ -2,7 +2,9 @@ const catalog = window.casaDaPalavraCatalogo ?? {};
 const books = catalog.books ?? [];
 const bookList = document.querySelector("#book-list");
 const bookCategoriesList = document.querySelector("#book-categories");
+const bookSearch = document.querySelector("#book-search");
 let selectedBookCategory = "";
+let bookSearchQuery = "";
 
 function createElement(tag, className, text) {
   const element = document.createElement(tag);
@@ -33,15 +35,31 @@ function getBookCategory(book) {
   return book.category?.trim() || "Sem categoria";
 }
 
+function normalizeSearchText(value) {
+  return value
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLocaleLowerCase("pt-BR");
+}
+
 function renderBooks() {
   bookList.replaceChildren();
   const visibleBooks = books
     .map((book, index) => ({ book, index }))
-    .filter(({ book }) => !selectedBookCategory || getBookCategory(book) === selectedBookCategory);
+    .filter(({ book }) => !selectedBookCategory || getBookCategory(book) === selectedBookCategory)
+    .filter(({ book }) => {
+      if (!bookSearchQuery) return true;
+      const searchableText = [book.title, book.author, getBookCategory(book), book.description]
+        .filter(Boolean)
+        .join(" ");
+      return normalizeSearchText(searchableText).includes(bookSearchQuery);
+    });
 
   if (visibleBooks.length === 0) {
     const message = books.length === 0
       ? "Novas sugestões de leitura serão publicadas em breve."
+      : bookSearchQuery
+        ? "Nenhum livro encontrado para esta pesquisa."
       : "Ainda não há livros nesta categoria.";
     bookList.append(createElement("p", "book-empty", message));
     return;
@@ -112,6 +130,11 @@ function selectBookCategory(category) {
   });
   renderBooks();
 }
+
+bookSearch?.addEventListener("input", () => {
+  bookSearchQuery = normalizeSearchText(bookSearch.value.trim());
+  renderBooks();
+});
 
 const categories = new Set(catalog.booksCategories ?? []);
 books.forEach((book) => categories.add(getBookCategory(book)));
