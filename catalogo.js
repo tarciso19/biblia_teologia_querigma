@@ -29,6 +29,20 @@ window.casaDaPalavraCatalogo = {
       htmlFile: "artigos/conteudos/querigma/pecado-e-salvacao/pulando-o-abismo-da-vontade-humana-a-vontade-divina-no-misterio-pascal.html",
     },
     {
+      title: "A Dinâmica da Conversão e a Aliança Divina",
+      category: "Querigma",
+      subcategory: "Fé e Conversão",
+      excerpt: "A conversão nasce da ação do Espírito Santo, que transforma o coração e torna possível viver a aliança com Deus.",
+      htmlFile: "artigos/conteudos/querigma/fe-e-conversao/a-dinamica-da-conversao-e-a-alianca-divina.html",
+    },
+    {
+      title: "A volta do exílio da babilônia e a força para recomeçar",
+      category: "Querigma",
+      subcategory: "Fé e Conversão",
+      excerpt: "Ageu, Neemias e Esdras ajudam o povo a recuperar o ânimo, reconstruir Jerusalém e voltar à Palavra de Deus.",
+      htmlFile: "artigos/conteudos/querigma/fe-e-conversao/a-volta-do-exilio-da-babilonia-e-a-forca-para-recomecar.html",
+    },
+    {
       title: "Israel no período dos juízes",
       category: "História de Israel",
       subcategory: "Período dos Juízes",

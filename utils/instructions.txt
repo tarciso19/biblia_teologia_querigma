@@ -95,7 +95,7 @@ Código HTML estruturado. Template a ser seguido para gerar o html:
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#f7f4ec">
     <meta name="description" content="Uma reflexão sobre a crise do sistema tribal em Israel e a transição para a monarquia sob Saul.">
-    <title>Da crise tribal à monarquia sob Saul | Casa da Palavra</title>
+    <title>Da crise tribal à monarquia sob Saul | Bíblia, Teologia e Querigma</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
