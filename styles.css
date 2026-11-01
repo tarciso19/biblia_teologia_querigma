@@ -327,6 +327,14 @@ h2 { margin-bottom: 0; font-size: clamp(40px, 4.3vw, 58px); line-height: 1.05; }
 .article-document .reading-subtitle { margin: 0 0 32px; padding: 0 0 22px; border-bottom: 1px solid #e4ddd4; color: #625650; font-family: var(--sans); font-size: 15px; font-weight: 600; line-height: 1.65; }
 .article-document .reading-content { max-width: none; margin: 0; padding: clamp(30px, 5vw, 56px) clamp(24px, 5vw, 56px) 0; color: #403a38; font-family: Georgia, serif; font-size: 18px; line-height: 1.85; }
 .article-document .reading-content section + section { margin-top: 48px; padding-top: 30px; border-top: 1px solid #e4ddd4; }
+.article-document .reading-content .book-source { display: grid; grid-template-columns: minmax(120px, 190px) 1fr; align-items: center; gap: clamp(22px, 4vw, 42px); margin: 0 0 38px; padding: clamp(20px, 4vw, 34px); border: 1px solid #e4ddd4; background: #f7f4ec; }
+.article-document .reading-content .book-source-cover-link { display: block; max-width: 190px; }
+.article-document .reading-content .book-source-cover { display: block; width: 100%; height: auto; box-shadow: 7px 9px 20px rgba(48,35,38,.16); }
+.article-document .reading-content .book-source-label { margin: 0 0 8px; color: #8a6743; font-family: var(--sans); font-size: 11px; font-weight: 700; letter-spacing: 1.4px; text-transform: uppercase; }
+.article-document .reading-content .book-source h2 { margin: 0 0 12px; font-size: clamp(23px, 3vw, 31px); }
+.article-document .reading-content .book-source-copy > p:not(.book-source-label) { margin: 0 0 16px; }
+.article-document .reading-content .book-source-link { display: inline-flex; min-height: 44px; align-items: center; gap: 8px; padding: 0 17px; background: var(--wine); color: #fff; font-family: var(--sans); font-size: 13px; font-weight: 600; text-decoration: none; }
+.article-document .reading-content .book-source-link:hover { background: var(--wine-dark); }
 .article-document .reading-content h2 { margin: 0 0 18px; color: var(--wine-dark); font-family: var(--serif); font-size: clamp(27px, 4vw, 36px); font-weight: 500; line-height: 1.2; }
 .article-document .reading-content h3 { margin: 34px 0 13px; color: #713844; font-family: var(--serif); font-size: 24px; font-weight: 600; line-height: 1.3; }
 .article-document .reading-content p { margin: 0 0 22px; }
@@ -367,6 +375,11 @@ h2 { margin-bottom: 0; font-size: clamp(40px, 4.3vw, 58px); line-height: 1.05; }
 .books-content .section-heading-light .eyebrow, .books-content .section-intro { color: #c3c8b7; }
 .books-content .section-heading-light .eyebrow-line { background: #d18a67; }
 .books-content > .section-heading h1 em { color: #d5ad80; }
+.book-search { width: min(430px, 100%); min-height: 46px; display: flex; align-items: center; gap: 12px; margin: 0 0 24px; padding: 0 15px; border: 1px solid rgba(245,240,223,.42); color: #d5ad80; }
+.book-search > span { font-size: 24px; line-height: 1; }
+.book-search input { width: 100%; min-width: 0; border: 0; outline: 0; background: transparent; color: var(--paper); font: 13px var(--sans); }
+.book-search input::placeholder { color: #c3c8b7; opacity: 1; }
+.book-search:focus-within { outline: 2px solid #d5ad80; outline-offset: 3px; }
 .books-list { max-width: 1440px; margin: 0 auto; }
 .book-suggestion { display: flex; max-width: 360px; flex-direction: column; }
 .book-suggestion .book-cover { width: 100%; }
@@ -481,6 +494,8 @@ h2 { margin-bottom: 0; font-size: clamp(40px, 4.3vw, 58px); line-height: 1.05; }
   .article-document .reading-content { padding: 30px 22px 0; font-size: 16px; line-height: 1.8; }
   .article-document .reading-content section + section { margin-top: 36px; padding-top: 24px; }
   .article-document .reading-content blockquote { padding: 16px 18px; font-size: 17px; }
+  .article-document .reading-content .book-source { grid-template-columns: 1fr; }
+  .article-document .reading-content .book-source-cover-link { width: min(100%, 190px); margin: 0 auto; }
   .article-document .reading-content ul { padding: 15px 18px 15px 37px; }
   .history-flow-trigger { width: 100%; justify-content: center; }
   .history-flow-dialog { width: calc(100vw - 20px); max-height: calc(100vh - 20px); }

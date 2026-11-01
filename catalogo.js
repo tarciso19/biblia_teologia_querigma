@@ -22,6 +22,20 @@ window.casaDaPalavraCatalogo = {
       htmlFile: "artigos\\conteudos\\vida_crista\\fundamentacao_biblica_dizimo.html",
     },
     {
+      title: "Pulando o Abismo: Da Vontade Humana à Vontade Divina no Mistério Pascal",
+      category: "Querigma",
+      subcategory: "Pecado e Salvação",
+      excerpt: "A reflexão teológica sobre a redenção humana mostra como a vontade humana se entrega à vontade divina em Cristo, no mistério pascal.",
+      htmlFile: "artigos/conteudos/querigma/pecado-e-salvacao/pulando-o-abismo-da-vontade-humana-a-vontade-divina-no-misterio-pascal.html",
+    },
+    {
+      title: "Israel no período dos juízes",
+      category: "História de Israel",
+      subcategory: "Período dos Juízes",
+      excerpt: "A identidade de Israel no período dos juízes se forma na teocracia, no culto central, na Aliança e na soberania de Iahweh sobre o povo.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/00-israel-no-periodo-dos-juizes.html",
+    },
+    {
       title: "O Reinado de Saul e a Crise do Sistema Tribal",
       category: "História de Israel",
       subcategory: "Período Monárquico",
@@ -84,6 +98,139 @@ window.casaDaPalavraCatalogo = {
       excerpt: "Sob Jeroboão II e Ozias, Israel e Judá vivem uma era de prosperidade sem precedentes, enquanto Amós e Oseias denunciam uma desintegração social e religiosa que conduz ao juízo.",
       htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/09-profetismo_antes_assiria.html",
     },
+    {
+      title: "A destruição do reino do norte e o governo de Ezequias em Judá",
+      category: "História de Israel",
+      subcategory: "Reino Dividido",
+      excerpt: "A Assíria destruiu o reino do norte e, sob pressão imperial, Judá precisou escolher entre a submissão e a fidelidade a Jahweh.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/11-destruicao-do-reino-do-norte-e-o-governo-de-ezequias-em-juda.html",
+    },
+    {
+      title: "Profetas do fim do século VIII em Judá: Isaías e Miqueias",
+      category: "História de Israel",
+      subcategory: "Reino Dividido",
+      excerpt: "Isaías e Miqueias denunciam a injustiça social, o culto vazio e a crise moral de Judá quando a prosperidade esconde a apostasia.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/12-profetas-do-fim-do-seculo-viii-em-juda-isaias-e-miqueias.html",
+    },
+    {
+      title: "O último século do reino de Judá: Manassés e Josias",
+      category: "História de Israel",
+      subcategory: "Reino Dividido",
+      excerpt: "A apostasia de Manassés e a grande reforma de Josias mostram a tensão entre decadência moral e última chance de restauração.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/13-ultimo-seculo-do-reino-de-juda-manasses-e-josias.html",
+    },
+    {
+      title: "O último século do reino de Judá: Sofonias e Jeremias",
+      category: "História de Israel",
+      subcategory: "Reino Dividido",
+      excerpt: "Sofonias e Jeremias anunciam o juízo de Jahweh e a necessidade de conversão antes da queda de Jerusalém.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/14-ultimo-seculo-do-reino-de-juda-sofonias-e-jeremias.html",
+    },
+    {
+      title: "A Babilônia e os últimos dias de Judá",
+      category: "História de Israel",
+      subcategory: "Reino Dividido",
+      excerpt: "A destruição de Jerusalém e as deportações marcam o cativeiro babilônico e o juízo que caiu sobre Judá.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/15-a-babilonia-e-os-ultimos-dias-de-juda.html",
+    },
+    {
+      title: "Profetas dos últimos dias de Judá: Habacuque e Jeremias",
+      category: "História de Israel",
+      subcategory: "Reino Dividido",
+      excerpt: "Habacuque questiona o juízo e Jeremias anuncia que a verdadeira esperança do justo está na fé e na obediência a Deus.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/16-profetas-dos-ultimos-dias-de-juda-habacuque-e-jeremias.html",
+    },
+    {
+      title: "Profeta Ezequiel",
+      category: "História de Israel",
+      subcategory: "Profetas e Exílio",
+      excerpt: "Ezequiel anuncia o juízo de Deus sobre Judá, mas também revela a promessa de restauração que nasce no coração do povo e na presença do Senhor.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/17-profeta-ezequiel.html",
+    },
+    {
+      title: "A vida no exílio: como ficou Jerusalém, os exilados na Babilônia e a religião de Israel",
+      category: "História de Israel",
+      subcategory: "Exílio",
+      excerpt: "O exílio reorganizou a memória, a identidade e a fé do povo, enquanto Jerusalém ficava em ruínas e os exilados aprendiam a viver na Babilônia.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/18-a-vida-no-exilio-como-ficou-jerusalem-os-exilados-na-babilonia-o-exilio-e-a-religiao-de-israel.html",
+    },
+    {
+      title: "Os últimos dias do império babilônico e a queda da Babilônia",
+      category: "História de Israel",
+      subcategory: "Império Babilônico",
+      excerpt: "A Babilônia viveu um auge de riqueza e orgulho, mas o império caiu diante da própria crise interna e da mudança do equilíbrio político do mundo antigo.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/19-os-ultimos-dias-do-imperio-babilonico-e-a-queda-da-babilonia.html",
+    },
+    {
+      title: "O segundo Isaías",
+      category: "História de Israel",
+      subcategory: "Profetas e Exílio",
+      excerpt: "No exílio, o segundo Isaías anuncia consolação, libertação e a promessa de uma nova criação para um povo em ruínas.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/20-o-segundo-isaias.html",
+    },
+    {
+      title: "O Decreto de Ciro e a Primeira Onda de Retorno",
+      category: "História de Israel",
+      subcategory: "Pós-Exílio",
+      excerpt: "A libertação do povo e a retomada do culto marcaram o início de uma restauração que exigiu perseverança, obediência e esperança.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/21-decreto-de-ciro-e-a-primeira-onda-de-retorno.html",
+    },
+    {
+      title: "Tensões Sociais, Sincretismo e a Reconstrução do Templo",
+      category: "História de Israel",
+      subcategory: "Pós-Exílio",
+      excerpt: "A obra do Templo foi ameaçada por rivalidades externas, conflitos internos e o desafio de preservar a pureza da fé e da identidade judaica.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/22-tensoes-sociais-sincretismo-e-reconstrucao-do-templo.html",
+    },
+    {
+      title: "As Reformas de Neemias e Esdras",
+      category: "História de Israel",
+      subcategory: "Pós-Exílio",
+      excerpt: "Neemias e Esdras renovaram a cidade, a justiça e a Lei, consolidando a identidade religiosa do povo restaurado.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/23-as-reformas-de-neemias-e-esdras.html",
+    },
+    {
+      title: "O Fim do Período Persa e a Transição para o Helenismo",
+      category: "História de Israel",
+      subcategory: "Pós-Exílio",
+      excerpt: "A instabilidade persa e a chegada de Alexandre, o Grande, abriram uma nova fase para Judá e para a comunidade judaica.",
+      htmlFile: "artigos/conteudos/historia_israel/livro_historia_israel/24-o-fim-do-periodo-persa-e-a-transicao-para-o-helenismo.html",
+    },
+    {
+      title: "O Contexto Histórico e Político: Do Domínio Persa ao Impacto do Helenismo",
+      category: "História de Israel",
+      subcategory: "Período Interbíblico / Segundo Templo",
+      excerpt: "O fim do domínio persa e o avanço do mundo grego redefiniram o espaço político e religioso do povo judeu antes do Novo Testamento.",
+      htmlFile: "artigos/conteudos/teologia_biblica_e_historia_de_israel/periodo_interbiblico/25-contexto-historico-politico-do-dominio-persa-ao-impacto-do-helenismo.html",
+    },
+    {
+      title: "O Domínio Ptolomaico, Selêucida e a Crise da Helenização",
+      category: "História de Israel",
+      subcategory: "Período Interbíblico / Segundo Templo",
+      excerpt: "Com Ptolomeus e Selêucidas, a cultura grega transformou a vida religiosa de Judá e gerou uma crise de identidade profunda.",
+      htmlFile: "artigos/conteudos/teologia_biblica_e_historia_de_israel/periodo_interbiblico/26-dominio-ptolomaico-selêucida-e-a-crise-da-helenizacao.html",
+    },
+    {
+      title: "A Revolta dos Macabeus e a Purificação do Templo",
+      category: "História de Israel",
+      subcategory: "Período Interbíblico / Segundo Templo",
+      excerpt: "A resistência dos Macabeus purificou o Templo e devolveu ao povo judeu a liberdade de viver a fé com coragem e fidelidade.",
+      htmlFile: "artigos/conteudos/teologia_biblica_e_historia_de_israel/periodo_interbiblico/27-a-revolta-dos-macabeus-e-a-purificacao-do-templo.html",
+    },
+    {
+      title: "O Judaísmo no Fim do Período do Antigo Testamento: Lei, Culto e Escatologia",
+      category: "História de Israel",
+      subcategory: "Período Interbíblico / Segundo Templo",
+      excerpt: "A Torá, o culto e a esperança escatológica consolidaram o judaísmo como comunidade de memória e expectativa antes do Novo Testamento.",
+      htmlFile: "artigos/conteudos/teologia_biblica_e_historia_de_israel/periodo_interbiblico/28-o-judaismo-no-fim-do-periodo-do-antigo-testamento-lei-culto-e-escatologia.html",
+    },
+    {
+      title: "Em Direção à Plenitude dos Tempos: Partidos e Seitas Religiosas",
+      category: "História de Israel",
+      subcategory: "Período Interbíblico / Segundo Templo",
+      excerpt: "Saduceus, fariseus, zelotas e essênios revelam a diversidade religiosa do período que preparou o cenário para o Novo Testamento.",
+      htmlFile: "artigos/conteudos/teologia_biblica_e_historia_de_israel/periodo_interbiblico/29-em-direcao-a-plenitude-dos-tempos-partidos-e-seitas-religiosas.html",
+    },
   ],
   articleCategories: {
     Querigma: [
@@ -97,8 +244,14 @@ window.casaDaPalavraCatalogo = {
     Parábolas: [],
     "História de Israel": [
       "Macabeus",
+      "Período dos Juízes",
       "Período Monárquico",
       "Reino Dividido",
+      "Profetas e Exílio",
+      "Exílio",
+      "Império Babilônico",
+      "Pós-Exílio",
+      "Período Interbíblico / Segundo Templo"
     ],
     "Vida Cristã": [
     ],
@@ -454,6 +607,71 @@ window.casaDaPalavraCatalogo = {
       description: "Contém comentários às passagens do Novo Testamento baseadas em passagens do Antigo Testamento. Em outras palavras, este Livro busca olhar para o Novo Testamento, a partir do Antigo.",
       amazonUrl: "https://www.amazon.com.br/Coment%C3%A1rio-Uso-Antigo-Testamento-Novo/dp/852750555X"
     },
+    {
+      title: "Pentateuco e Historia Deuteronomista: Gênesis, êxodo, Levítico, Números – Deuteronômio, Josué, Juízes, 1 e 2 Samuel, 1 e 2 Reis",
+      author: "Padre José Bortolini",
+      category: "Padre José Bortolini",
+      coverImage: "images\\bortolini_pentateuco.png",
+      description: "",
+      amazonUrl: "https://www.amazon.com.br/Pentateuco-Hist%C3%B3ria-Deuteronomista-Jos%C3%A9-Bortolini/dp/8536905409"
+    },
+    {
+      title: "Literatura Paulina: 1 Tessalonicenses, Filipenses, 1 e 2 Coríntios, Gálatas, Romanos, Filêmon, Colossenses, Efésios...",
+      author: "Padre José Bortolini",
+      category: "Padre José Bortolini",
+      coverImage: "images\\bortolini_paulo.png",
+      description: "",
+      amazonUrl: "https://www.amazon.com.br/Literatura-Paulina-Jos%C3%A9-Bortolini/dp/8536905700"
+    },
+    {
+      title: "Evangelhos Sinóticos e Atos dos Apostolos: Marcos, Mateus, Lucas e Atos dos Apóstolos",
+      author: "Padre José Bortolini",
+      category: "Padre José Bortolini",
+      coverImage: "images\\bortolini_evangelhos.png",
+      description: "",
+      amazonUrl: "https://www.amazon.com.br/Evangelhos-Sin%C3%B3ticos-Atos-dos-Ap%C3%B3stolos/dp/8536905581"
+    },
+    {
+      title: "História do Crônista e Novelas Bíblicas: 1 e 2 Crônicas, Esdras, Neemias, 1 e 2 Macabeus, Rute, Jonas, Tobias, Judite, Ester",
+      author: "Padre José Bortolini",
+      category: "Padre José Bortolini",
+      coverImage: "images\\bortolini_crônicas.png",
+      description: "",
+      amazonUrl: "https://www.amazon.com.br/Historia-Cronista-Novelas-Biblicas-Cr%C3%B4nicas/dp/8536905425"
+    },
+    {
+      title: "Literatura Joanina e Escritos Pastorais: Evangelho de João, Cartas de João, Apocalipse, Hebreus, Tiago, 1 e 2 Pedro, Judas",
+      author: "Padre José Bortolini",
+      category: "Padre José Bortolini",
+      coverImage: "images\\bortolini_literatura_joanina.png",
+      description: "",
+      amazonUrl: "https://www.amazon.com.br/Literatura-Joanina-escritos-pastorais-Apocalipse/dp/8536905719"
+    },
+    {
+      title: "Profetas: Isaías, Jeremias, Ezequiel, Daniel, Lamentações, Amós, Baruc, Oseias, Joel, Sofonias, Miqueias...",
+      author: "Padre José Bortolini",
+      category: "Padre José Bortolini",
+      coverImage: "images\\bortolini_profetas.jpg",
+      description: "",
+      amazonUrl: "https://www.amazon.com.br/Profetas-Jose-Bortolini/dp/8536905492"
+    },
+    {
+      title: "O Mistério da Pascoa",
+      author: "Raniero Cantalamessa",
+      category: "Temas Variados",
+      coverImage: "images\\cantalamessa_pascoa.png",
+      description: "",
+      amazonUrl: "https://www.amazon.com.br/Mistério-Páscoa-Raniero-Cantalamessa/dp/8572001670"
+    },
+    {
+      title: "História de Israel",
+      author: "John Bright",
+      category: "Temas Variados",
+      coverImage: "images\\historia_israel.png",
+      description: "",
+      amazonUrl: "https://www.amazon.com.br/História-Israel-John-Brigth/dp/8534920885"
+    }
+    
     
   ],
   booksCategories: [
@@ -461,12 +679,29 @@ window.casaDaPalavraCatalogo = {
     "Comentários Bíblicos",
     "Comentários da Bíblia feito por Santos",
     "Comentários de Scott Hahn",
-    "Temas Variados"
+    "Temas Variados",
+    "Padre José Bortolini",
   ],
   pdfs: [
     // { title: "Título da publicação", author: "Autor", category: "Suma Teológica", file: "materiais/pdfs/publicacao.pdf" },
   ],
   videos: [
+    {
+      id: "48",
+      title: "A oração sacerdotal e o amor de Jesus pelos imperfeitos",
+      author: "@tarcisocastro19",
+      category: "Amor de Deus",
+      embedUrl: "https://www.instagram.com/reel/DfEnUUvMDh9/embed/",
+      link: "https://www.instagram.com/reel/DfEnUUvMDh9/",
+    },
+    {
+      id: "47",
+      title: "O profeta Oseias e o amor incondicional de Deus por nós",
+      author: "@tarcisocastro19",
+      category: "Amor de Deus",
+      embedUrl: "https://www.instagram.com/reel/DeylTBxs1a6/embed/",
+      link: "https://www.instagram.com/reel/DeylTBxs1a6/",
+    },
     {
       id: "46",
       title: "Helenismo e o Martírio de Eleazar",
